@@ -280,7 +280,7 @@ function gameOver(
       child.style.backgroundColor = "rgb(0, 231, 231)";
     });
     computerShipList.forEach((item) => initializeComputerShips(item, computerShipList));
-    redCells(".computerCell", computerShipList);
+
   }
 
   playAgain.addEventListener("click", handleClick);

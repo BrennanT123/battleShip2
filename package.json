@@ -7,7 +7,8 @@
     "watch": "jest --watch *.js",
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "clean": "rm -rf dist"
   },
   "keywords": [],
   "author": "",

@@ -54,7 +54,7 @@ function establishComputerShips()
         initializeComputerShips(item,shipList)
       );
       
-      redCells(".computerCell",shipList);
+  
       
 
       return shipList;
